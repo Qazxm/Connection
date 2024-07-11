@@ -18,8 +18,8 @@ public class ConnectionHelper {
         pass="test129";
         port="1433";
 
-        StrictMode.ThreadPolicy policy = new StricMode.Threadpolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
+        //StrictMode.ThreadPolicy policy = new StricMode.Threadpolicy.Builder().permitAll().build();
+       // StrictMode.setThreadPolicy(policy);
         Connection connection=null;
         String ConnectionURL=null;
 
